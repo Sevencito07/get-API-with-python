@@ -72,7 +72,7 @@ html_content += """
 """
 
 # Write HTML content to a file
-with open("rick_and_morty.html", "w") as file:
+with open("index.html", "w") as file:
     file.write(html_content)
 
 print("HTML file created successfully.")
